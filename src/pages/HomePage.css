@@ -1,0 +1,36 @@
+.tilte-seemore {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-img-2 {
+  margin: 30px;
+  justify-content: flex-end;
+  width: 270px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+}
+.product-img-2:hover {
+  background-color: #b0ceff;
+  transition: all 0.3s linear;
+}
+
+.price-plus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-list {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
